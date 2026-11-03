@@ -1,0 +1,6 @@
+{
+  "name": "Village Cricket",
+  "description": "Village cricket club management, live tournament scoring, player stats, highlights, and community feed.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

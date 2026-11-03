@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Wickets / Stumps -->
+    <!-- Bail left -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M38,32 h15 v3 h-15 z" />
+    <!-- Bail right -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M55,32 h15 v3 h-15 z" />
+    <!-- Stump 1 (Off) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M40,35 h4 v38 h-4 z" />
+    <!-- Stump 2 (Middle) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M52,35 h4 v38 h-4 z" />
+    <!-- Stump 3 (Leg) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M64,35 h4 v38 h-4 z" />
+
+    <!-- Crossed Cricket Bats -->
+    <!-- Bat 1 (top-left to bottom-right) -->
+    <!-- Handle -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M30,26 L36,32 L33,35 L27,29 Z" />
+    <!-- Grip wrap -->
+    <path
+        android:fillColor="#FEF3C7"
+        android:pathData="M33,29 L35,31 L34,32 L32,30 Z" />
+    <!-- Blade -->
+    <path
+        android:fillColor="#FDE68A"
+        android:pathData="M36,32 L78,74 L73,79 L31,37 Z" />
+
+    <!-- Cricket Ball with seam -->
+    <path
+        android:fillColor="#DC2626"
+        android:pathData="M74,58 A11,11 0 1,0 74,80 A11,11 0 1,0 74,58 Z" />
+    <!-- Ball seam -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.2"
+        android:pathData="M67,61 C72,67 76,71 81,77" />
+    <!-- Seam stitches -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="0.8"
+        android:pathData="M68,64 L70,62 M71,67 L73,65 M74,70 L76,68 M77,73 L79,71" />
+
+    <!-- Pitch crease ground line -->
+    <path
+        android:fillColor="#A7F3D0"
+        android:pathData="M30,73 h48 v2.5 h-48 z" />
+</vector>
